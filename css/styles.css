@@ -8,28 +8,26 @@
     --button-color: #F5F4FA;
 }
 
-
-
 body {
-    background-color: var(--white-color);
-    color: var(--main-text-color);
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", Verdana, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.2;
     letter-spacing: 0.03em;
+    background-color: var(--white-color);
+    color: var(--main-text-color);
 }
-a {
-    text-decoration: none;
-}
+
 .list {
     padding: 0;
     list-style: none;
 }
 
+/* site nav */
+
 .logo {
     font-family: "Raleway", sans-serif;
+    text-decoration: none;
     color: #000000;
 }
 
@@ -37,11 +35,10 @@ a {
     color: var(--acsent-color);
 }
 
-/* site nav */
-
 .site-nav .link {
     font-weight: 500;
     font-size: 14px;
+    text-decoration: none;
     color: #212121;
 }
 .site-nav .link.current {
@@ -59,6 +56,7 @@ a {
 .auth-nav .link{
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+    text-decoration: none;
 }
 
 
@@ -81,7 +79,6 @@ a {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2px;
     text-align: center;
     color: var(--title-text-color);
 }
@@ -89,34 +86,20 @@ a {
 /* Features */
 .features-title {
     font-weight: 700;
-    line-height: 1.2px;
     text-transform: uppercase;
     color: var(--title-text-color);
 }
+
 button {
     cursor: pointer;
     border-radius: 4px;
     border: 1px solid transparent;
 }
+
 .button-main {
     padding: 10px 32px;
     width: 216px;
     height: 50px;
-    color: var(--white-color);
-    background-color: var(--acsent-color);
-}
-.button-nav {
-    padding: 6px 25px;
-    color: var(--title-text-color);
-    background-color: var(--button-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-}
-.button-nav.active,
-.button-nav:hover,
-.button-nav:focus {
     color: var(--white-color);
     background-color: var(--acsent-color);
 }
@@ -149,6 +132,7 @@ footer {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 
 }
@@ -156,6 +140,35 @@ footer {
     margin-top: 20px;
     color: var(--white-color);
 }
+
+/* Portfolio */
+
+.button-nav {
+    padding: 6px 25px;
+    color: var(--title-text-color);
+    background-color: var(--button-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+}
+.button-nav.active,
+.button-nav:hover,
+.button-nav:focus {
+    color: var(--white-color);
+    background-color: var(--acsent-color);
+}
+
+.portfolio-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
 .portfolio-subtitle {
     font-weight: 700;
     font-size: 18px;
@@ -165,5 +178,5 @@ footer {
 }
 .portfolio-text {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
 }
