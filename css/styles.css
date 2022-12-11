@@ -27,6 +27,9 @@ body {
 
 .logo {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
     text-decoration: none;
     color: #000000;
 }
@@ -87,6 +90,9 @@ body {
 .features-title {
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.14;
+
     color: var(--title-text-color);
 }
 
@@ -100,6 +106,11 @@ button {
     padding: 10px 32px;
     width: 216px;
     height: 50px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
     color: var(--white-color);
     background-color: var(--acsent-color);
 }
@@ -114,6 +125,11 @@ button {
     font-weight: 500;
     font-size: 16px;
     color: var(--title-text-color);
+}
+
+.team p {
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 /* Footer */
